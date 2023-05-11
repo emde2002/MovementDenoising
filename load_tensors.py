@@ -33,11 +33,11 @@ def load_data(spikes_name, video_1_name, video_2_name, filepath):
     print(f"Spikes shape: {spikes.shape}")
 
     # Change data type to float for normalisation
-    #video = video.to(torch.float32)
+    video = video.to(torch.float32)
 
     # Normalise data
-    #spikes = torch.nn.functional.normalize(spikes, dim=1)
-    #video = torch.nn.functional.normalize(video, dim=1)
+    spikes = torch.nn.functional.normalize(spikes, dim=1)
+    video = torch.nn.functional.normalize(video, dim=1)
 
     # Save tensors
     # torch.save(spikes, os.path.join(filepath, "Spikes.pt"))

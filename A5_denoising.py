@@ -8,12 +8,12 @@ import numpy as np
 
 
 # Set session name
-session = r"20230124_115956__CHS030_B4_APOP_control"
+session = r"20230218_125525__CHS034_B3_APOP_control"
 
 # Set spikes and video array names
 spikes_name = r"spikes_trimmed"
-video_1_name = r"CHS030_B4_2023-01-24-12-00-34_cam_1_trimmed"
-video_2_name = r"CHS030_B4_2023-01-24-12-00-34_cam_2_trimmed"
+video_1_name = r"CHS034_B3_2023-02-18-12-55-52_cam_1_trimmed"
+video_2_name = r"CHS034_B3_2023-02-18-12-55-52_cam_2_trimmed"
 
 # Set filepath
 filepath = fr"Z:\Behavioural_data\EyeCam\Preprocessed\{session}"
@@ -22,7 +22,7 @@ filepath = fr"Z:\Behavioural_data\EyeCam\Preprocessed\{session}"
 spikes, video, n_neurons, n_pixels = load_tensors.load_data(spikes_name=spikes_name, video_1_name=video_1_name, video_2_name=video_2_name, filepath=filepath)
 
 # Set factors
-n_factors = 2
+n_factors = 3
 
 # Initialise percent variance explained list
 percent_variance_explained_list = []

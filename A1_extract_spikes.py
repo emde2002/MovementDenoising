@@ -4,7 +4,7 @@ import os
 
 
 # Set session name
-filename = r"20230124_115956__CHS030_B4_APOP_control"
+filename = r"20230218_125525__CHS034_B3_APOP_control"
 
 # Set filepath
 filepath = fr"Z:\Data\Filipe\CHS\Processed\{filename}\suite2p"

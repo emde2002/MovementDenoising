@@ -9,11 +9,11 @@ def create_array(video, video_trimmed):
 
 
 # Set session name
-session = r"20230124_115956__CHS030_B4_APOP_control"
+session = r"20230218_125525__CHS034_B3_APOP_control"
 
 # Set video array names
-video_1_name = r"CHS030_B4_2023-01-24-12-00-34_cam_1"
-video_2_name = r"CHS030_B4_2023-01-24-12-00-34_cam_2"
+video_1_name = r"CHS034_B3_2023-02-18-12-55-52_cam_1"
+video_2_name = r"CHS034_B3_2023-02-18-12-55-52_cam_2"
 
 # Set filepath
 filepath = fr"Z:\Behavioural_data\EyeCam\Preprocessed\{session}"

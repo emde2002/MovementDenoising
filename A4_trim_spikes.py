@@ -13,7 +13,7 @@ def binarization(triggers):
 
 
 # Set session name
-session = r"20230124_115956__CHS030_B4_APOP_control"
+session = r"20230218_125525__CHS034_B3_APOP_control"
 
 # Set filepath
 filepath = fr"Z:\Behavioural_data\EyeCam\Preprocessed\{session}"
